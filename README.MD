@@ -1,5 +1,7 @@
 # Ultimate Invincible Super EEG Based Dino Controller Plus Max Ultra Pro
 
+![dino](https://github.com/QABCI/EMG-GoogleDinoGame/blob/main/dino.jpg?raw=true "dino")
+
 This project aims to create a system that allows users to play google dino game using EEG data. We’ll use Python to acquire real-time muscle EEG data via the Lab Streaming Layer (LSL) and then let the dino jump.
 
 ### Requirements
@@ -12,8 +14,14 @@ This project aims to create a system that allows users to play google dino game 
 
 #### Python lib
 Python: `pip install pylsl`
+
 Python: `pip install pyautogui`
+
 Python: `pip install os`
+
+### How to play
+
+
 
 ### Algorithm implementation (flowchart)
 
