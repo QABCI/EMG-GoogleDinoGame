@@ -43,16 +43,16 @@ Python (optional): `pip install os`
 
 valuelist = []
 while len(valuelist) < value_length: # detect the value twice to make sure the correction
-chunk, timestamps = inlet.pull_chunk()
-if timestamps:
-valuelist.append(chunk[0][1]) # collecting the data
+    chunk, timestamps = inlet.pull_chunk()
+    if timestamps:
+        valuelist.append(chunk[0][1]) # collecting the data
 
 if sum(i >= threshold for i in valuelist) >= value_length / 2: # logic to jump
-if trigger:
-keyDown('space') # jump
-print("Jump ", count)
-count += 1
-trigger = not trigger
+    if trigger:
+        keyDown('space') # jump
+        print("Jump ", count)
+        count += 1
+        trigger = not trigger
 ```
 
 ```mermaid
