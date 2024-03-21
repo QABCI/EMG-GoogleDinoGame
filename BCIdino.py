@@ -13,7 +13,7 @@ def main():
     threshold = 0.98
     value_length = 2
     count = 0
-    
+    # os.system("cls") # Clear debug data
     while True:
         valuelist = []
         while len(valuelist) < value_length: # detect the value twice to make sure the correction

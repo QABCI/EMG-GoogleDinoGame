@@ -1,5 +1,3 @@
-
-
 # Ultimate Invincible Super EEG Based Dino Controller Plus Max Ultra Pro
 
 ![dino](https://github.com/QABCI/EMG-GoogleDinoGame/blob/main/dino.jpg?raw=true "dino")
@@ -16,11 +14,11 @@ This project aims to create a system that allows users to play google dino game 
 
 #### Python lib
 
-Python: `pip install pylsl`
+Python (LSL connection): `pip install pylsl`
 
-Python: `pip install pyautogui`
+Python (Dino control): `pip install pyautogui`
 
-Python: `pip install os`
+Python (optional): `pip install os`
 
 ### How to play
 
