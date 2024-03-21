@@ -25,11 +25,17 @@ Python: `pip install os`
 ### How to play
 
 **1: **Link the cyton board to the ear clip electrode, then connect the Bluetooth receiver of the cyton board to the computer and open the openBCI application to connect to the cyton board
+
 **2: **Connect the graphite electrode to the second serial port of the cyton board, and then open the `data transmission` of the `second serial port` in the openBCI application
+
 **3: **Set up openBCI application to `LSL network transmission mode` and transmit `second serial port` data in this mode
+
 **4: **Open Chrome browser and enter in the navigation bar `chrome://dino`
+
 **5: **Place the graphite electrode on your forehead or temple, then open the chrome dino game
+
 **6: **Grit your teeth or stomp your feet in every place you need to jump to make Dino jump in the right place
+
 **7: **Becoming a Dino Master
 
 ### Algorithm implementation (flowchart)
